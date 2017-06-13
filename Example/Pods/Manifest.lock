@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - Specta (1.0.6)
+  - ZXFileManager (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - ZXFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZXFileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  ZXFileManager: aabd5382b6ff871902894aba725ea5d495c090e4
+
+PODFILE CHECKSUM: 080b85b2448e26ff1d0b3a8e1403f8ace8fdfdc6
+
+COCOAPODS: 1.2.1

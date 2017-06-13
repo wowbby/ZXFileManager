@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ZXFileManager_Example' do
+  pod 'ZXFileManager', :path => '../'
+
+  target 'ZXFileManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end

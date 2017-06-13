@@ -1,0 +1,6 @@
+framework module ZXFileManager {
+  umbrella header "ZXFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
