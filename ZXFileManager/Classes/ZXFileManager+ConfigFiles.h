@@ -39,4 +39,12 @@
  *  @return 是否删除成功
  */
 +(BOOL)deleteFileWithFileName:(NSString *)fileName subDirectory:(NSString *)folderName;
+/**
+ 获取指定文件的路径
+ 
+ @param fileName 文件名称
+ @param folderName 子文件夹名称
+ @return 路径
+ */
++ (NSString *)filePathWithFileName:(NSString *)fileName subDirectory:(NSString *)folderName;
 @end
