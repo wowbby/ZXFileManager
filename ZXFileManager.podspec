@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZXFileManager'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '文件管理'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '文件管理'
+  s.description      = '文件管理封装'
 
   s.homepage         = 'https://github.com/wowbby/ZXFileManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
