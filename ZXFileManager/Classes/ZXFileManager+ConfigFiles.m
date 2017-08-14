@@ -49,4 +49,9 @@
     
     return NO;
 }
++ (NSString *)filePathWithFileName:(NSString *)fileName subDirectory:(NSString *)folderName{
+    
+    NSString *filePath = [[[self configFilePath] stringByAppendingPathComponent:folderName] stringByAppendingPathComponent:fileName];
+    return  filePath;
+}
 @end
