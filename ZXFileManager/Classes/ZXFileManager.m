@@ -17,7 +17,7 @@
 #define TOCK   CFAbsoluteTime end = CFAbsoluteTimeGetCurrent(); \
 NSLog(@"time=%f",end -start);
 //获取沙盒Cache目录路径
-#define WC_CACHE_PATH [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]
+#define WC_CACHE_PATH [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 // 获取home目录路径
 #define WC_HOME_PATH NSHomeDirectory()
 
@@ -40,6 +40,7 @@ static NSString *bim_sharePath = nil;
         im_uid = uk;
         bim_rootPath = [[[WC_CACHE_PATH stringByAppendingPathComponent:RootPath] stringByAppendingFormat:@"/%@/", im_appid] stringByAppendingString:[im_uid stringValue]];
         [self setup];
+        
     }
     else
     {
